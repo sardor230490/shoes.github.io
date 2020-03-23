@@ -1,0 +1,48 @@
+html {
+ box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+ box-sizing: inherit;
+}
+html,
+body {
+ 
+ position: relative;
+ overflow-x: hidden;
+}
+
+a {
+ display: inline-block;
+ text-decoration: none;
+ &:hover {
+   text-decoration: none;
+ }
+}
+
+ul,
+li {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+* {
+margin: 0;
+padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+
+}
+.container {
+  max-width: 1400px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+ .logo img{
+   fill: #fff;
+ }
+ 
